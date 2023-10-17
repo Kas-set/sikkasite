@@ -54,3 +54,6 @@ backdrop-filter: blur( 0px );
   background-color:#475569;
   font-color:white;
 }
+html{
+  scroll-behavior:smooth;
+}

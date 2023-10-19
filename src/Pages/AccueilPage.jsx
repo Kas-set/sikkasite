@@ -1,8 +1,17 @@
 import Accueil from "../components/Accueil";
+import Paginatiton from "../components/Pagination";
+import PopUp from "../components/PopUp";
 
 const AccueilPage = () => {
     return (  
-        <Accueil/>
+        <div>
+            <Accueil/>
+            <Paginatiton />
+            <PopUp/>
+
+
+        </div>
+            
     );
 }
  
